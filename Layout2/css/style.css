@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer, section{
+    height: 100px;
+    border: 5px solid green;
+    clear: both;
+}
+article{
+    height: 100px;
+    border: 5px solid green;
+    float: left;
+    width: 40%;
+}
+article + article{
+    float: left;
+    width: 60%;
+}
